@@ -44,6 +44,7 @@ function Login() {
   else {  
     return(
       <div>
+        <h2>SERVER_URL: {SERVER_URL}</h2>
         <Stack spacing={2} alignItems='center' mt={2}>
           <TextField 
             name="username"
