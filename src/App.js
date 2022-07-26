@@ -15,6 +15,7 @@ function App() {
         </Toolbar>
       </AppBar>
       {/* To show the login form, we have to render the Login component: */}
+      console.log('Before the Login form');
       <Login />
     </div>
   );
