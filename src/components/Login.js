@@ -21,7 +21,7 @@ function Login() {
   }
   
   const login = () => {
-    console.log('Inside the Login.js, before the fetch(SERVER_URL.... call. body: ', JSON.stringify(user));
+    console.log("Before fetch(" + SERVER_URL + "'login', {... body:" + JSON.stringify(user) + " call.");
     fetch(SERVER_URL + 'login', {
       method: 'POST',
       headers: { 'Content-Type':'application/json' },
